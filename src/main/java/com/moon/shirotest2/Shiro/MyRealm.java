@@ -7,6 +7,10 @@ import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 
+import org.apache.shiro.authc.*;
+
+import java.util.*;
+
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;

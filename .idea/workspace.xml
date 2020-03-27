@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ade026c-05eb-466a-b071-bf67c1b1bfe3" name="Default Changelist" comment="" />
+    <list default="true" id="0ade026c-05eb-466a-b071-bf67c1b1bfe3" name="Default Changelist" comment="今天还是测试">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/moon/shirotest2/test/FCFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/moon/shirotest2/Shiro/MyRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/moon/shirotest2/Shiro/MyRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/moon/shirotest2/shiro/AuthenticationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/moon/shirotest2/shiro/AuthenticationTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +48,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -50,7 +56,7 @@
       <recent name="F:\idea-workspace\shirotest2\src\main\java\com\moon\shirotest2\shiro" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AuthenticationTest">
+  <component name="RunManager" selected="JUnit.AuthenticationTest.testAuthentication">
     <configuration name="Quickstart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.moon.shirotest2.shiro.Quickstart" />
       <module name="shirotest2" />
@@ -79,6 +85,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AuthenticationTest.testAuthentication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shirotest2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.moon.shirotest2.shiro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.moon.shirotest2.shiro" />
+      <option name="MAIN_CLASS_NAME" value="com.moon.shirotest2.shiro.AuthenticationTest" />
+      <option name="METHOD_NAME" value="testAuthentication" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Shirotest2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="shirotest2" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.moon.shirotest2.Shirotest2Application" />
@@ -88,6 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AuthenticationTest.testAuthentication" />
         <item itemvalue="JUnit.AuthenticationTest" />
         <item itemvalue="Application.Quickstart" />
       </list>
@@ -117,38 +140,47 @@
       <updated>1584447967169</updated>
       <workItem from="1584447973863" duration="2356000" />
       <workItem from="1584923879367" duration="1412000" />
-      <workItem from="1585058776152" duration="633000" />
+      <workItem from="1585058776152" duration="1233000" />
+      <workItem from="1585275239444" duration="5378000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="今天还是测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="今天还是测试" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="789" y="299" key="#Project_Structure" timestamp="1584923915157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="789" y="299" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1584923915157" />
+    <state x="699" y="105" key="CommitChangelistDialog2" timestamp="1585310424496">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="699" y="105" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585310424496" />
     <state x="1296" y="298" key="FileChooserDialogImpl" timestamp="1584449175718">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1296" y="298" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584449175718" />
-    <state width="1340" height="235" key="GridCell.Tab.0.bottom" timestamp="1584459736144">
+    <state width="1340" height="235" key="GridCell.Tab.0.bottom" timestamp="1585310424587">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="235" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584459736144" />
-    <state width="1340" height="235" key="GridCell.Tab.0.center" timestamp="1584459736144">
+    <state width="1340" height="235" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585310424587" />
+    <state width="1340" height="235" key="GridCell.Tab.0.center" timestamp="1585310424587">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="235" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584459736144" />
-    <state width="1340" height="235" key="GridCell.Tab.0.left" timestamp="1584459736144">
+    <state width="1340" height="235" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585310424587" />
+    <state width="1340" height="235" key="GridCell.Tab.0.left" timestamp="1585310424587">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="235" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584459736144" />
-    <state width="1340" height="235" key="GridCell.Tab.0.right" timestamp="1584459736144">
+    <state width="1340" height="235" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585310424587" />
+    <state width="1340" height="235" key="GridCell.Tab.0.right" timestamp="1585310424587">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="235" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584459736144" />
+    <state width="1340" height="235" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585310424587" />
     <state width="1340" height="235" key="GridCell.Tab.1.bottom" timestamp="1584448211124">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -165,5 +197,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1340" height="235" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584448211123" />
+    <state x="645" y="179" key="SettingsEditor" timestamp="1585275988881">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="645" y="179" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585275988881" />
+    <state x="655" y="336" key="com.intellij.ide.util.TipDialog" timestamp="1585275234675">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="336" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585275234675" />
   </component>
 </project>
